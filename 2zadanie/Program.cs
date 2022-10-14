@@ -18,8 +18,8 @@ class Program
             Console.WriteLine($"x = {-b / (2 * a)}");
         else if (D > 0)
         {
-            Console.WriteLine($"x = {-b + Math.Sqrt(D) / (2 * a)}");
-            Console.WriteLine($"x = {-b - Math.Sqrt(D) / (2 * a)}");
+            Console.WriteLine($"x = {(-b + Math.Sqrt(D)) / (2 * a)}");
+            Console.WriteLine($"x = {(-b - Math.Sqrt(D)) / (2 * a)}");
         }
 
     }
